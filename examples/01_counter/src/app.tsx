@@ -1,7 +1,7 @@
 import { useReducer, StrictMode } from 'react';
 import type { ReactNode } from 'react';
 
-import { createContext, useContextSelector } from 'use-context-selector';
+import { createContext, useContextSelector } from 'better-use-context-selector';
 
 const initialState = {
   count: 0,

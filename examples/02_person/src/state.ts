@@ -1,6 +1,6 @@
 import { useReducer } from 'react';
 
-import { createContext } from 'use-context-selector';
+import { createContext } from 'better-use-context-selector';
 
 const initialState = {
   count: 0,

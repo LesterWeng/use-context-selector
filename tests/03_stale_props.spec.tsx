@@ -1,7 +1,7 @@
 import { useReducer } from 'react';
 import { afterEach, describe, expect, it } from 'vitest';
 import { render, fireEvent, cleanup } from '@testing-library/react';
-import { createContext, useContextSelector } from 'use-context-selector';
+import { createContext, useContextSelector } from 'better-use-context-selector';
 
 describe.skip('stale props spec', () => {
   afterEach(cleanup);

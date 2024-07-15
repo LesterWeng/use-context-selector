@@ -1,13 +1,9 @@
 {
-  "name": "use-context-selector",
+  "name": "better-use-context-selector",
   "description": "React useContextSelector hook in userland",
-  "version": "2.0.0",
+  "version": "0.0.2",
   "type": "module",
-  "author": "Daishi Kato",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dai-shi/use-context-selector.git"
-  },
+  "author": "Lix",
   "source": "./src/index.ts",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -77,9 +73,10 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "scheduler": "^0.23.2",
+    "shallowequal": "^1.1.0",
     "ts-expect": "^1.3.0",
     "typescript": "^5.4.5",
-    "use-context-selector": "link:.",
+    "better-use-context-selector": "link:.",
     "vite": "^5.2.11",
     "vitest": "^1.6.0"
   },

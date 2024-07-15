@@ -7,7 +7,7 @@ import {
   useContextSelector,
   useBridgeValue,
   BridgeProvider,
-} from 'use-context-selector';
+} from 'better-use-context-selector';
 
 describe('Bridge spec', () => {
   afterEach(cleanup);

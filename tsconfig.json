@@ -1,18 +1,22 @@
 {
+  "compileOnSave": false,
   "compilerOptions": {
-    "strict": true,
-    "target": "es2018",
-    "esModuleInterop": true,
-    "module": "nodenext",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2021", "dom"],
     "skipLibCheck": true,
-    "allowJs": true,
-    "verbatimModuleSyntax": true,
-    "noUncheckedIndexedAccess": true,
-    "exactOptionalPropertyTypes": true,
-    "jsx": "react-jsx",
+    "skipDefaultLibCheck": true,
     "baseUrl": ".",
+    "esModuleInterop": true,
     "paths": {
-      "use-context-selector": ["./src/index.js"]
+      "better-use-context-selector": ["./src/index.js"]
     }
   },
   "exclude": ["dist", "examples"]

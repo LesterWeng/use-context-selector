@@ -6,7 +6,7 @@ import {
   createContext,
   useContextSelector,
   useContextUpdate,
-} from 'use-context-selector';
+} from 'better-use-context-selector';
 
 describe('useContextUpdate spec', () => {
   afterEach(cleanup);

@@ -8,7 +8,7 @@ const { DIR, PORT = '8080' } = process.env;
 export default defineConfig(({ mode }) => {
   if (mode === 'test') {
     return {
-      resolve: { alias: { 'use-context-selector': resolve('src') } },
+      resolve: { alias: { 'better-use-context-selector': resolve('src') } },
       test: {
         environment: 'happy-dom',
         setupFiles: ['./tests/vitest-setup.js'],
@@ -21,6 +21,6 @@ export default defineConfig(({ mode }) => {
   return {
     root: resolve('examples', DIR),
     server: { port: Number(PORT) },
-    resolve: { alias: { 'use-context-selector': resolve('src') } },
+    resolve: { alias: { 'better-use-context-selector': resolve('src') } },
   };
 });

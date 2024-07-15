@@ -6,7 +6,7 @@
   "dependencies": {
     "react": "latest",
     "react-dom": "latest",
-    "use-context-selector": "latest"
+    "better-use-context-selector": "latest"
   },
   "devDependencies": {
     "@types/react": "latest",

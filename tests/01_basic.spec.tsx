@@ -2,7 +2,7 @@ import { useRef, useState, StrictMode } from 'react';
 import type { Dispatch, ReactNode, SetStateAction } from 'react';
 import { afterEach, describe, expect, it } from 'vitest';
 import { render, fireEvent, cleanup, screen } from '@testing-library/react';
-import { createContext, useContextSelector } from 'use-context-selector';
+import { createContext, useContextSelector } from 'better-use-context-selector';
 
 describe('basic spec', () => {
   afterEach(cleanup);

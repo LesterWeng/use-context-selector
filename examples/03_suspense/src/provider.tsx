@@ -10,7 +10,7 @@ import {
   createContext,
   useContext,
   useContextUpdate,
-} from 'use-context-selector';
+} from 'better-use-context-selector';
 
 // const useContextUpdate = () => (fn: any) => fn();
 

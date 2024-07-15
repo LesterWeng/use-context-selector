@@ -1,4 +1,4 @@
-import { useContextSelector } from 'use-context-selector';
+import { useContextSelector } from 'better-use-context-selector';
 
 import { MyContext } from './state';
 

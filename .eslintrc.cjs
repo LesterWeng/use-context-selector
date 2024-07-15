@@ -22,7 +22,7 @@ module.exports = {
     react: { version: 'detect' },
   },
   rules: {
-    'import/no-unresolved': ['error', { ignore: ['use-context-selector'] }],
+    'import/no-unresolved': ['error', { ignore: ['better-use-context-selector'] }],
     '@typescript-eslint/no-unused-vars': [
       'error',
       {
@@ -35,5 +35,6 @@ module.exports = {
         ignoreRestSiblings: true,
       },
     ],
+    '@typescript-eslint/no-explicit-any': ['off'],
   },
 };
