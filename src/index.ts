@@ -46,7 +46,7 @@ const createProvider = (ProviderOrig) => {
 };
 
 export function createContext(defaultValue) {
-  const context = createContextOrig({
+  const context: React.Context<any> = createContextOrig({
     value: defaultValue,
     listeners: new Set(),
   });
