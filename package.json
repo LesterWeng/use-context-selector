@@ -1,9 +1,13 @@
 {
   "name": "better-use-context-selector",
   "description": "React useContextSelector hook in userland",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "type": "module",
   "author": "Lix",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LesterWeng/use-context-selector.git"
+  },
   "source": "./src/index.ts",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
